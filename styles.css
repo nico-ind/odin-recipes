@@ -1,18 +1,38 @@
+h1,
 h2,
 .titles{
-   color: white; 
-   background-color: rebeccapurple;
+   color: black; 
+   background-color: wheat;
    font-weight: bold;
    font-size: 32px;
    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   padding: 10px;
+}
+
+.list{
+    background: white;
+    padding: 8px;
+}
+
+ul{
+    padding-left: 0px;
+    list-style: none;
 }
 
 li {
-    color: red; 
-    background-color: burlywood;
+    color: black; 
+    background-color: whitesmoke;
     font-weight: thin;
-    font-size: 22px;
+    font-size: 28px;
     font-family: Arial, Helvetica, sans-serif; 
+    margin: 12px 0px;
+    padding: 8px;
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
 }
 
 h2 {
@@ -21,8 +41,16 @@ h2 {
 
 p {
     color: black; 
-    background-color: gray;
+    background-color: white;
     font-weight: thin;
-    font-size: 14px;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif; 
+    padding: 8px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
